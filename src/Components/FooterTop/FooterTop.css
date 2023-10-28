@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footerTop{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerTop img{
+    width: 100%;    
+   margin-left: 70px;
+    height:100%;
+    object-fit: cover;
+}
