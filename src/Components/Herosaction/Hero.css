@@ -68,7 +68,7 @@ user-select: none;
 }
 @media screen and (max-width:1000px){
 .heroImage{
-    display: none;
+    /* display: none; */
 }
 .HeroText h1{
     font-size: 40px;
@@ -78,4 +78,24 @@ user-select: none;
     font-size: 20px;
   
 }
+.MainHero{
+    height: auto;
+}
+}
+@media screen and (max-width:767px){
+    .heropage {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .HeroText {
+        width: 100%;
+    }
+    .heroImage {
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    
 }

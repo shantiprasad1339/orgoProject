@@ -15,3 +15,8 @@ body{
     height:100%;
     object-fit: cover;
 }
+@media screen and (max-width:500px){
+  .footerTop img {
+    margin-left: 0px;
+  }
+}

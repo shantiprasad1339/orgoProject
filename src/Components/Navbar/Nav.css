@@ -23,3 +23,19 @@ body{
     justify-content: space-around;
     gap: 150px;
 }
+@media screen and (max-width:767px){
+    .NavText {
+        display: flex;
+        justify-content: space-around;
+        gap: 27px;
+        flex-wrap: wrap;
+    }
+    .Logo{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .Logo h2{
+        font-size: 15px;
+    }
+}
